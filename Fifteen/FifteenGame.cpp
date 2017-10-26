@@ -2,7 +2,7 @@
 #include "FifteenGame.h"
 
 
-auto FifteenGame::GenerateNew() -> void
+void FifteenGame::GenerateNew()
 {
 }
 
