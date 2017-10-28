@@ -18,7 +18,7 @@ void FifteenGame::GenerateNew()
 FifteenGame::FifteenGame()
 {
 	Playfield.clear();
-	for (int x = 1;x <= 16;x++) Playfield.push_back(x + 1);
+	for (int x = 0;x < 16;x++) Playfield.push_back(x + 1);
 	GenerateNew();
 }
 
