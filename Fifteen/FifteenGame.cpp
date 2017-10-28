@@ -34,7 +34,7 @@ bool FifteenGame::IsALegalMove(int num)
 
 bool FifteenGame::IsBoardWon()
 {
-	for (int x = 0;x < 16 + 1;x++) { if (Playfield[x] != x + 1) return false; }
+	for (int x = 0;x < 16;x++) { if (Playfield[x] != x + 1) return false; }
 	return true;
 }
 

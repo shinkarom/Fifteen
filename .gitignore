@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 /Output/Fifteen.exe
+/Output/Fifteen.iobj
+/Output/Fifteen.ipdb
